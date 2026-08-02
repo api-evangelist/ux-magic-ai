@@ -1,0 +1,112 @@
+# UXMagic
+
+> UXMagic is an AI UI/UX design tool that turns text prompts, screenshots, hand-drawn sketches, website URLs, and existing Figma files into pixel-perfect, Figma-ready UI designs and production-ready code in seconds. Built by UXMagic Inc. (US), it is trusted by 50,000+ designers, developers, product managers, and founders.
+
+UXMagic helps teams go from idea to interface fast: generate complete multi-screen UI flows, low-fidelity wireframes, and full style guides with AI, then export to Figma, Framer, Webflow, React, and HTML/Tailwind.
+
+## Generate UI from anything
+- [AI UI Generator](https://uxmagic.ai/ai-ui-design-generator): Turn text prompts into pixel perfect figma ready UI.
+- [Image to UI](https://uxmagic.ai/image-to-ui): Upload a screenshot and get production-ready code.
+- [Sketch to UI](https://uxmagic.ai/image-wireframe-to-ui): Convert paper sketches into polished digital interfaces.
+- [Clone any Website](https://uxmagic.ai/clone-any-website): Recreate any website design by providing a URL.
+- [Import from Figma](https://uxmagic.ai/import-from-figma): Bring your existing Figma projects into UXMagic.
+
+## Design & edit
+- [Flow Mode](https://uxmagic.ai/flow-mode-ai-ui-generator): Generate your entire multi-screen UI flow from one prompt.
+- [Style Guide Generator](https://uxmagic.ai/ai-style-guide-generator): Generate brand colors, typography, and components in seconds.
+
+## Structure & ship
+- [AI Wireframe Generator](https://uxmagic.ai/ai-wireframe-generator): Generate Low fidelity wireframes to plan your structure
+- [Image Screenshot to Wireframe](https://uxmagic.ai/image-to-wireframe): Convert any screenshot into a clean, editable wireframe
+
+## Features (complete list)
+- UI Design: Generate polished, high-fidelity UI screens from a plain-text prompt.
+- Wireframe Mode: Generate low-fidelity wireframes and user flows to plan structure first.
+- Sectional Editing: Edit a single section of a screen without regenerating the whole thing.
+- Flow Mode: Create an entire multi-screen user flow from a single prompt.
+- Screenshot to UI: Turn any screenshot into editable, production-ready UI.
+- Sketch to UI: Convert a rough or hand-drawn sketch into a polished digital interface.
+- Clone a Site (from URL): Recreate any website's layout from its URL for inspiration and exploration.
+- Text Editing & Upload Images: Edit content inline and add your own images to designs.
+- Style Guide: Generate and apply consistent brand colors, typography, and components.
+- Import Figma Components / Design System: Bring your existing Figma components and design system into UXMagic.
+- Export Code: Export production-ready HTML, React, and Tailwind code for developer handoff.
+- Figma Export: Export high-fidelity, auto-layout, dev-ready designs straight to Figma.
+- Export to Framer & Webflow: Export and publish generated designs directly to Framer and Webflow.
+- Per-project collaborator invites: Invite specific people by email to collaborate on a project.
+- Anyone-with-link share: Share a link that adds anyone who opens it to the project.
+
+## Exports & integrations
+- Figma: export high-fidelity, dev-ready, auto-layout designs to Figma — or import an existing Figma file and edit it with AI.
+- Framer & Webflow: export and publish generated designs directly to Framer and Webflow.
+- Code: export production-ready HTML, React, and Tailwind CSS from any generated design.
+- Figma plugin: [UXMagic AI UI Generator (Website to Figma, Screenshot to UI)](https://www.figma.com/community/plugin/1374402598280022366/uxmagic-ai-ui-generator-website-to-figma-screenshot-to-ui) — [UXMagic on Figma](https://www.figma.com/@uxmagic).
+- Component libraries: [Figma component library](https://uxmagic.ai/figma-component-library), [React component library](https://uxmagic.ai/react-component-library).
+- Developer tools: MCP server ([uxmagic-mcp@1.2.0 on npm](https://www.npmjs.com/package/uxmagic-mcp?activeTab=readme)) for Cursor, Windsurf, VS Code, Claude and other IDEs — setup in the docs.
+
+## Plans & pricing
+- Free — $0/month: 30 one-time credits · up to 5 screens (5 projects, 1 Figma export).
+- UX Magic Pro — $17.5/month: 1,200 monthly credits · up to 200 screens (Unlimited projects, 250 Figma exports).
+- Enterprise — Custom pricing: Custom credits based on team plan (Everything in Pro, plus team & security features).
+- Enterprise adds: Unlimited AI-generated screens, Unlimited team seats, Custom credit allocation, SSO / SAML authentication, Team admin dashboard, Shared design system & component library, and more.
+- Prices in USD. Paid plans are billed monthly or annually; a free tier is always available with no credit card. See uxmagic.ai/pricing for current plans.
+
+## Compare UXMagic vs other AI design tools
+- [All comparisons](https://uxmagic.ai/compare)
+- [UXMagic vs Framer AI](https://uxmagic.ai/framer-ai)
+- [UXMagic vs Buildwith Mocha](https://uxmagic.ai/buildwith-mocha)
+- [UXMagic vs Flowmapp](https://uxmagic.ai/flowmapp)
+- [UXMagic vs Figma Make](https://uxmagic.ai/figma-make)
+- [UXMagic vs Relume](https://uxmagic.ai/relume)
+- [UXMagic vs Motiff AI](https://uxmagic.ai/motiff-ai)
+- [UXMagic vs Teleport HQ](https://uxmagic.ai/teleport-hq)
+- [UXMagic vs Sleek Design](https://uxmagic.ai/sleek-design)
+- [UXMagic vs Replit AI](https://uxmagic.ai/replit-ai)
+- [UXMagic vs Variant AI](https://uxmagic.ai/variant-ai)
+- [UXMagic vs Google Stitch](https://uxmagic.ai/google-stitch)
+- [UXMagic vs Uizard](https://uxmagic.ai/uizard)
+- [UXMagic vs Emergent](https://uxmagic.ai/emergent)
+- [UXMagic vs Claude Design](https://uxmagic.ai/claude-design)
+- [UXMagic vs Galileo AI](https://uxmagic.ai/galileo-ai)
+- [UXMagic vs UXPilot](https://uxmagic.ai/uxpilot)
+- [UXMagic vs Rocket New](https://uxmagic.ai/rocket-new)
+- [UXMagic vs Magicpath](https://uxmagic.ai/magicpath)
+- [UXMagic vs Banani](https://uxmagic.ai/banani)
+- [UXMagic vs Uxpin](https://uxmagic.ai/uxpin)
+- [UXMagic vs Paper Design](https://uxmagic.ai/paper-design)
+- [UXMagic vs Pencil Dev](https://uxmagic.ai/pencil-dev)
+- [UXMagic vs Magic Patterns](https://uxmagic.ai/magic-patterns)
+- [UXMagic vs Bolt AI](https://uxmagic.ai/bolt-ai)
+- [UXMagic vs Subframe](https://uxmagic.ai/subframe)
+- [UXMagic vs Onlook](https://uxmagic.ai/onlook)
+- [UXMagic vs UXCanvas AI](https://uxmagic.ai/uxcanvas-ai)
+- [UXMagic vs Base44](https://uxmagic.ai/base44)
+- [UXMagic vs Reweb](https://uxmagic.ai/reweb)
+- [UXMagic vs v0](https://uxmagic.ai/v0)
+- [UXMagic vs Dora AI](https://uxmagic.ai/dora-ai)
+- [UXMagic vs Lovable](https://uxmagic.ai/lovable)
+- [UXMagic vs Readdy AI](https://uxmagic.ai/readdy-ai)
+- [UXMagic vs Alloy App](https://uxmagic.ai/alloy-app)
+- [UXMagic vs Visily](https://uxmagic.ai/visily)
+- [UXMagic vs Same New](https://uxmagic.ai/same-new)
+- [UXMagic vs Appalchemy](https://uxmagic.ai/appalchemy)
+
+## Guides & docs
+- [Documentation](https://uxmagic.ai/docs)
+- [How-to guide & video tutorials](https://uxmagic.ai/resources/how-to-guide)
+- [Connect the MCP server](https://uxmagic.ai/docs/connect-mcp)
+- [Configure your IDE](https://uxmagic.ai/docs/configure-your-ide)
+- [Tools & exporting to code](https://uxmagic.ai/docs/export-a-frame)
+
+## Product
+- [Pricing](https://uxmagic.ai/pricing): free tier available; paid plans priced in USD.
+- [Blog](https://uxmagic.ai/blog): articles on AI design workflows, prompting, and wireframing.
+- [Community](https://uxmagic.ai/community)
+- [References & inspiration](https://uxmagic.ai/references)
+- [Support](https://uxmagic.ai/support)
+- [Careers](https://uxmagic.ai/careers)
+- [Affiliate program](https://uxmagic.ai/affiliate)
+
+## About UXMagic
+UXMagic Inc. is a US-registered company (Dover, Delaware), founded in 2024. UXMagic is rated 4.8/5 from 118 reviews on Trustpilot and 4.7/5 on G2, and is used by 50,000+ designers worldwide.
+Profiles: [G2](https://www.g2.com/products/uxmagic-ai) · [Trustpilot](https://www.trustpilot.com/review/uxmagic.ai) · [LinkedIn](https://www.linkedin.com/company/uxmagicai) · [X](https://x.com/UXMagic_ai) · [YouTube](https://www.youtube.com/@uxmagic_ai) · [Crunchbase](https://www.crunchbase.com/organization/ux-magic-ai)

@@ -1,0 +1,97 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://uxmagic.ai/docs/connect-mcp
+docs: https://uxmagic.ai/docs/connect-mcp
+server:
+  name: uxmagic
+  transport: http
+  protocol: streamable-http
+  url: https://api.uxmagic.ai/api/mcp
+  probe:
+    url: https://api.uxmagic.ai/api/mcp
+    status: 401
+    date: '2026-07-21'
+    note: Live endpoint; returns 401 without an X-API-Key header, as documented.
+  authentication:
+    type: apiKey
+    header: X-API-Key
+    key_prefix: uxm_
+    key_management: https://uxmagic.ai/manage-account?value=api-keys
+    scopes:
+    - designs:read
+    - designs:write
+    - agent:run
+    note: A key with no scopes has full access (per provider docs).
+bridge:
+  package: uxmagic-mcp
+  registry: npm
+  url: https://www.npmjs.com/package/uxmagic-mcp
+  version: 1.2.0
+  transport: stdio
+  command: env UXMAGIC_API_KEY=uxm_YOUR_API_KEY npx -y uxmagic-mcp
+  repository: https://github.com/uxmagic/uxmagic-mcp-server
+  note: Transparent stdio bridge that forwards MCP traffic to the hosted backend;
+    clients supporting remote MCP can connect directly and skip the bridge.
+clients:
+- Cursor
+- VS Code
+- Windsurf
+- Antigravity
+- Claude Desktop
+tools:
+- name: list_projects
+  group: read
+- name: get_project
+  group: read
+- name: list_frames
+  group: read
+- name: get_frame
+  group: read
+- name: read_screen
+  group: read
+- name: read_theme
+  group: read
+- name: list_project_documents
+  group: read
+- name: read_document
+  group: read
+- name: create_project
+  group: write
+- name: create_frame
+  group: write
+- name: duplicate_frame
+  group: write
+- name: edit_design
+  group: write
+- name: update_design
+  group: write
+- name: replace_image
+  group: write
+- name: export_figma
+  group: write
+- name: generate_design
+  group: ai-generation
+  note: Long-running async generation; poll generation_status (with cursor).
+- name: generation_status
+  group: ai-generation
+- name: confirm_generation
+  group: ai-generation
+  note: Human-in-the-loop confirmation step.
+- name: cancel_generation
+  group: ai-generation
+resources:
+- uxmagic://project/{id}
+- uxmagic://frame/{id}
+- uxmagic://frame/{id}/version/{versionId}
+- uxmagic://frame/{id}/theme
+prompts:
+- design_screen
+- redesign_screen
+- build_theme
+- clone_site
+- prototype_flow
+notes: >-
+  Tool list captured from the provider's npm README (uxmagic-mcp@1.2.0) and
+  https://uxmagic.ai/docs/export-a-frame on 2026-07-21; the backend serves the
+  live toolset, so run tools/list from a client for the current set.

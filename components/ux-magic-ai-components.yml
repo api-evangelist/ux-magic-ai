@@ -1,0 +1,29 @@
+generated: '2026-07-21'
+method: searched
+source: https://uxmagic.ai/llms.txt
+families:
+- name: React component library
+  kind: react-components
+  package: '@uxmagic.ai/ui'
+  registry: npm
+  url: https://www.npmjs.com/package/@uxmagic.ai/ui
+  docs: https://uxmagic.ai/react-component-library
+  loader: npm install @uxmagic.ai/ui (peer deps react ^18.2.0, react-dom, tailwindcss,
+    class-variance-authority, clsx, tailwind-merge; built on Radix primitives)
+  description: First-party React UI component library (maintained by
+    engineering@uxmagic.ai) backing the designs UXMagic generates and exports.
+- name: Figma component library
+  kind: figma-components
+  docs: https://uxmagic.ai/figma-component-library
+  description: Figma component library for UXMagic-generated designs; import your
+    existing Figma components/design system so generated screens follow your brand.
+- name: Figma plugin
+  kind: figma-plugin
+  url: https://www.figma.com/community/plugin/1374402598280022366/uxmagic-ai-ui-generator-website-to-figma-screenshot-to-ui
+  publisher: https://www.figma.com/@uxmagic
+  description: UXMagic AI UI Generator Figma community plugin (website to Figma,
+    screenshot to UI) - generate UIs inside existing Figma files.
+notes: >-
+  Client-side/design-surface components distinct from server-side SDKs (none
+  shipped). Captured from the provider's llms.txt, npm registry metadata, and
+  the Figma community listing on 2026-07-21.

@@ -1,0 +1,38 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://uxmagic.ai and https://api.uxmagic.ai
+hosts:
+- host: https://uxmagic.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/ux-magic-ai-llms.txt
+    note: Provider-published llms.txt, saved verbatim under llms/.
+- host: https://api.uxmagic.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /openapi.json
+    status: 404
+  - path: /openapi.yaml
+    status: 404
+  - path: /swagger.json
+    status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on either host as of
+  2026-07-21. The uxmagic.ai site serves a soft-200 catch-all page for unknown
+  paths (e.g. /changelog, /status, /vulnerability-disclosure all render a
+  "Design Tool Comparison" page), so 200s were verified by content, not status
+  alone; the well-known paths above returned true 404s.

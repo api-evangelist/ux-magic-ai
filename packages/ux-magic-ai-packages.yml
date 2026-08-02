@@ -1,0 +1,37 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=uxmagic
+packages:
+- language: javascript
+  registry: npm
+  name: uxmagic-mcp
+  url: https://www.npmjs.com/package/uxmagic-mcp
+  install: npm install -g uxmagic-mcp
+  official: true
+  latest: 1.2.0
+  license: MIT
+  kind: mcp-bridge
+  description: MCP bridge for UX Magic - connects IDEs (Cursor, VS Code, Windsurf,
+    Antigravity, Claude) to the UX Magic remote MCP server (https://api.uxmagic.ai/api/mcp)
+    over Streamable HTTP with API-key auth. Transparent stdio proxy, not a REST SDK.
+  repository: https://github.com/uxmagic/uxmagic-mcp-server
+  maintainer: engineering@uxmagic.ai
+  last_modified: '2026-06-25'
+- language: javascript
+  registry: npm
+  name: '@uxmagic.ai/ui'
+  url: https://www.npmjs.com/package/@uxmagic.ai/ui
+  install: npm install @uxmagic.ai/ui
+  official: true
+  latest: 0.1.15
+  kind: ui-component-library
+  description: UX Magic UI Component Library - React components built on Radix and
+    Tailwind CSS (peer deps react ^18.2, tailwindcss).
+  maintainer: engineering@uxmagic.ai
+  last_modified: '2025-03-25'
+notes: >-
+  Both packages are first-party (maintained by engineering@uxmagic.ai). Neither
+  is a REST API client SDK: uxmagic-mcp is the MCP stdio bridge and
+  @uxmagic.ai/ui is a React UI component library. No packages found on PyPI
+  (404), and no other first-party registries surfaced as of 2026-07-21;
+  UXMagic's developer surface is its MCP server, not a REST SDK.

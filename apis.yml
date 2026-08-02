@@ -1,8 +1,32 @@
 aid: ux-magic-ai
 name: UX Magic AI
-description: UX Magic AI is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1
+description: UXMagic (UX Magic AI) is an AI UI/UX design platform that turns text prompts,
+  screenshots, hand-drawn sketches, website URLs, and existing Figma files into pixel-perfect,
+  Figma-ready UI designs and production-ready code. Built by UXMagic Inc. (founded 2024,
+  Dover, Delaware; backed by 500 Global) and used by 50,000+ designers, it generates
+  multi-screen flows, wireframes, and style guides, exports to Figma, Framer, Webflow,
+  React, and HTML/Tailwind, and ships a hosted MCP server (api.uxmagic.ai/api/mcp) plus
+  an npm stdio bridge so AI agents in Cursor, VS Code, Windsurf, and Claude can read,
+  generate, and edit designs with scoped API keys.
 url: https://raw.githubusercontent.com/api-evangelist/ux-magic-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://uxmagic.ai/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +35,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Design
+- ArtificialIntelligence
+- UIDesign
+- UXDesign
+- Figma
+- DesignToCode
+- MCP
+- Wireframes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,37 @@ maintainers:
 common:
 - type: Website
   url: https://uxmagic.ai
+- type: Documentation
+  url: https://uxmagic.ai/docs
+- type: GettingStarted
+  url: https://uxmagic.ai/docs/connect-mcp
+- type: APIReference
+  url: https://uxmagic.ai/docs/export-a-frame
+- type: Support
+  url: https://uxmagic.ai/support
+- type: Community
+  url: https://uxmagic.ai/community
+- type: Blog
+  url: https://uxmagic.ai/blog
+- type: Pricing
+  url: https://uxmagic.ai/pricing
+- type: TermsOfService
+  url: https://uxmagic.ai/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://uxmagic.ai/legal/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/uxmagic
+- type: Login
+  url: https://uxmagic.ai/login
+- type: MCPServer
+  url: mcp/ux-magic-ai-mcp.yml
+- type: Packages
+  url: packages/ux-magic-ai-packages.yml
+- type: Components
+  url: components/ux-magic-ai-components.yml
+- type: LLMsTxt
+  url: llms/ux-magic-ai-llms.txt
+- type: Authentication
+  url: authentication/ux-magic-ai-authentication.yml
+- type: DomainSecurity
+  url: security/ux-magic-ai-domain-security.yml
