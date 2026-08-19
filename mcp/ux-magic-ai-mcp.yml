@@ -31,8 +31,8 @@ bridge:
   transport: stdio
   command: env UXMAGIC_API_KEY=uxm_YOUR_API_KEY npx -y uxmagic-mcp
   repository: https://github.com/uxmagic/uxmagic-mcp-server
-  note: Transparent stdio bridge that forwards MCP traffic to the hosted backend;
-    clients supporting remote MCP can connect directly and skip the bridge.
+  note: Transparent stdio bridge that forwards MCP traffic to the hosted backend; clients supporting remote
+    MCP can connect directly and skip the bridge.
 clients:
 - Cursor
 - VS Code
@@ -91,7 +91,13 @@ prompts:
 - build_theme
 - clone_site
 - prototype_flow
-notes: >-
-  Tool list captured from the provider's npm README (uxmagic-mcp@1.2.0) and
-  https://uxmagic.ai/docs/export-a-frame on 2026-07-21; the backend serves the
-  live toolset, so run tools/list from a client for the current set.
+notes: Tool list captured from the provider's npm README (uxmagic-mcp@1.2.0) and https://uxmagic.ai/docs/export-a-frame
+  on 2026-07-21; the backend serves the live toolset, so run tools/list from a client for the current
+  set.
+deployment:
+  mode: remote
+  endpoint: https://api.uxmagic.ai/api/mcp
+  verified: probed
+  probe: gated
+  checked: '2026-08-12'
+  source: catalog MCP census
