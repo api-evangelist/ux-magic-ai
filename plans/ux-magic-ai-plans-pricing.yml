@@ -1,0 +1,48 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://uxmagic.ai/pricing
+sources:
+- https://uxmagic.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: UX Magic Pro
+published: true
+note: Standard SaaS pricing page; Enterprise is custom. Credits expire per plan terms.
+plan_count: 4
+currency: USD
+plans:
+- name: Free
+  price_text: Free — $0/month
+  price: 0
+  currency: USD
+  period: month
+  included_quota: 20 free credits every day · up to 3 screens daily; 5 projects; 1 Figma export
+- name: UX Magic Pro
+  price_text: UX Magic Pro — $35/month
+  price: 35
+  currency: USD
+  period: month
+  included_quota: 2,400 monthly credits · up to 400 screens · no daily limit; Unlimited projects; 250
+    Figma exports
+  overage: You can purchase additional credits anytime from your dashboard.
+- name: UX Magic Pro (annual)
+  price_text: $17.5/month ($210/year) — 50% off the $35 monthly price
+  currency: USD
+  period: month
+  included_quota: Same as Pro, billed annually
+- name: Enterprise
+  price_text: Enterprise — Custom pricing
+  period: none
+  included_quota: Custom credits based on team plan; everything in Pro plus team & security features
+rate_limit_statements:
+- 20 free credits every day · up to 3 screens daily
+- Paid plans have no daily credit limit
